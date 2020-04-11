@@ -9,4 +9,4 @@ CITC app.
   3. Trent Heston
   4. Brianna Holder [INACTIVE]
 
-_ Brianna Holder has not responded to any correspondence up to this point. No work has been received from her. _
+* Brianna Holder has not responded to any correspondence up to this point. No work has been received from her. *
