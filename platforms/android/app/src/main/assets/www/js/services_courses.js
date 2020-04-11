@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('CITC.services', ['ngResource'])
-.constant("baseURL","http://192.168.1.100:3000/")
+.constant("baseURL","http://10.0.0.107:3000/")
 
 .factory('menuFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
 

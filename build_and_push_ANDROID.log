@@ -1,0 +1,650 @@
+Script started on Sat Apr 11 19:45:35 2020
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hlls[?2004l
+README.md         [34mnode_modules[39;49m[0m      package.json      [34mplugins[39;49m[0m           [34mwww[39;49m[0m
+[34mjson-server[39;49m[0m       package-lock.json [34mplatforms[39;49m[0m         screen.log
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hccordova platform add android[?2004l
+Using cordova-fetch for cordova-android@^7.1.4[0m
+Platform android already added.
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hccordova platform rmeove    m  android[?2004l
+Error: npm: Command failed with exit code 1 Error output:
+npm WARN deprecated gulp-util@2.2.20: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated gulp-minify-css@0.3.13: Please use gulp-clean-css
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated bower@1.8.8: We don't recommend using Bower for new projects. Please consider Yarn and Webpack or Parcel. You can read how to migrate legacy project here: https://bower.io/blog/2017/how-to-migrate-away-from-bower/
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated natives@1.1.6: This module relies on Node.js's internals and will break at some point. Do not use it, and update to graceful-fs@4.x.
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN confusion@1.1.1 No repository field.
+npm WARN confusion@1.1.1 No license field.
+
+npm ERR! code EEXIST
+npm ERR! path /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/node_modules/.bin/create
+npm ERR! Refusing to delete /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/node_modules/.bin/create: is outside /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/node_modules/cordova-android and not a link
+npm ERR! File exists: /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/node_modules/.bin/create
+npm ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/tcheston/.npm/_logs/2020-04-11T23_46_18_252Z-debug.log
+    at ChildProcess.whenDone (/usr/local/lib/node_modules/[4mcordova[24m/node_modules/[4mcordova-common[24m/src/superspawn.js:135:23)
+[90m    at ChildProcess.emit (events.js:321:20)[39m
+[90m    at maybeClose (internal/child_process.js:1026:16)[39m
+[90m    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)[39m {
+  stderr: [32m'npm WARN deprecated gulp-util@2.2.20: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5\n'[39m +
+    [32m'npm WARN deprecated gulp-minify-css@0.3.13: Please use gulp-clean-css\n'[39m +
+    [32m'npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5\n'[39m +
+    [32m"npm WARN deprecated bower@1.8.8: We don't recommend using Bower for new projects. Please consider Yarn and Webpack or Parcel. You can read how to migrate legacy project here: https://bower.io/blog/2017/how-to-migrate-away-from-bower/\n"[39m +
+    [32m'npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142\n'[39m +
+    [32m'npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue\n'[39m +
+    [32m"npm WARN deprecated natives@1.1.6: This module relies on Node.js's internals and will break at some point. Do not use it, and update to graceful-fs@4.x.\n"[39m +
+    [32m'npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue\n'[39m +
+    [32m'npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js\n'[39m +
+    [32m'npm WARN confusion@1.1.1 No repository field.\n'[39m +
+    [32m'npm WARN confusion@1.1.1 No license field.\n'[39m +
+    [32m'\n'[39m +
+    [32m'npm ERR! code EEXIST\n'[39m +
+    [32m'npm ERR! path /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/node_modules/.bin/create\n'[39m +
+    [32m'npm ERR! Refusing to delete /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/node_modules/.bin/create: is outside /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/node_modules/cordova-android and not a link\n'[39m +
+    [32m'npm ERR! File exists: /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/node_modules/.bin/create\n'[39m +
+    [32m'npm ERR! Remove the existing file and try again, or run npm\n'[39m +
+    [32m'npm ERR! with --force to overwrite files recklessly.\n'[39m +
+    [32m'\n'[39m +
+    [32m'npm ERR! A complete log of this run can be found in:\n'[39m +
+    [32m'npm ERR!     /Users/tcheston/.npm/_logs/2020-04-11T23_46_18_252Z-debug.log\n'[39m,
+  code: [33m1[39m
+}
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hlls[?2004l
+README.md         [34mnode_modules[39;49m[0m      package.json      [34mplugins[39;49m[0m           [34mwww[39;49m[0m
+[34mjson-server[39;49m[0m       package-lock.json [34mplatforms[39;49m[0m         screen.log
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hccd platforms[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro platforms % [K[?2004hlls[?2004l
+[34mios[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro platforms % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hlls[?2004l
+README.md         [34mnode_modules[39;49m[0m      package.json      [34mplugins[39;49m[0m           [34mwww[39;49m[0m
+[34mjson-server[39;49m[0m       package-lock.json [34mplatforms[39;49m[0m         screen.log
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hccordova platform add anr droid[?2004l
+Using cordova-fetch for cordova-android@^7.1.4[0m
+Adding android project...[0m
+Creating Cordova project for the Android platform:[0m
+	Path: platforms/android[0m
+	Package: io.ionic.starter[0m
+	Name: CITC_App[0m
+	Activity: MainActivity[0m
+	Android target: android-27[0m
+Android project created with cordova-android@7.1.4[0m
+Android Studio project detected[0m
+Android Studio project detected[0m
+Installing "cordova-plugin-device" for android[0m
+Installing "cordova-plugin-ionic-keyboard" for android[0m
+Installing "cordova-plugin-ionic-webview" for android[0m
+Subproject Path: CordovaLib[0m
+Subproject Path: app[0m
+Installing "cordova-plugin-splashscreen" for android[0m
+Installing "cordova-plugin-statusbar" for android[0m
+Installing "cordova-plugin-whitelist" for android[0m
+
+               This plugin is only applicable for versions of cordova-android greater than 4.0. If you have a previous platform version, you do *not* need this plugin since the whitelist will be built in.
+          [0m
+[1m[34mPlugin 'cordova-plugin-whitelist' found in config.xml... Migrating it to package.json[0m
+[1m[34mPlugin 'cordova-plugin-statusbar' found in config.xml... Migrating it to package.json[0m
+[1m[34mPlugin 'cordova-plugin-device' found in config.xml... Migrating it to package.json[0m
+[1m[34mPlugin 'cordova-plugin-splashscreen' found in config.xml... Migrating it to package.json[0m
+[1m[34mPlugin 'cordova-plugin-ionic-webview' found in config.xml... Migrating it to package.json[0m
+[1m[34mPlugin 'cordova-plugin-ionic-keyboard' found in config.xml... Migrating it to package.json[0m
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hlls[?2004l
+README.md         [34mnode_modules[39;49m[0m      package.json      [34mplugins[39;49m[0m           [34mwww[39;49m[0m
+[34mjson-server[39;49m[0m       package-lock.json [34mplatforms[39;49m[0m         screen.log
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hccordova platform build             build android[?2004l
+Android Studio project detected[0m
+ANDROID_HOME=/Users/tcheston/Library/Android/sdk
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home
+studio
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [79ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [179ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [282ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [380ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [479ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [582ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [684ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [781ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [882ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [981ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [1s][m[0K[36D[2B[1A[1m> Evaluating settings > Compiling /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/settings.gradle into local [m[128D[1B[1A[1m> Evaluating settings[m[0K[21D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [1s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[1A[1m> root project[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [2s][m[35D[2B[2A[1m<[0;32;1m====[0;39;1m---------> 33% CONFIGURING [2s][m[36D[1B> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [2s][m[0K[33D[2B[1A[1m> :wrapper[m[10D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [3s][m[33D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 7s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hSubproject Path: CordovaLib[0m
+Subproject Path: app[0m
+Starting a Gradle Daemon (subsequent builds will be faster)
+Download https://maven.google.com/com/android/tools/build/gradle/3.0.1/gradle-3.0.1.jar
+Download https://maven.google.com/com/android/tools/lint/lint/26.0.1/lint-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/builder/3.0.1/builder-3.0.1.jar
+Download https://maven.google.com/com/android/tools/build/gradle-core/3.0.1/gradle-core-3.0.1.jar
+Download https://maven.google.com/com/android/tools/lint/lint-checks/26.0.1/lint-checks-26.0.1.jar
+Download https://maven.google.com/com/android/tools/lint/lint-api/26.0.1/lint-api-26.0.1.jar
+Download https://maven.google.com/com/android/tools/external/org-jetbrains/uast/26.0.1/uast-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/gradle-api/3.0.1/gradle-api-3.0.1.jar
+Download https://maven.google.com/com/android/databinding/compilerCommon/3.0.1/compilerCommon-3.0.1.jar
+Download https://maven.google.com/com/android/tools/sdk-common/26.0.1/sdk-common-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/manifest-merger/26.0.1/manifest-merger-26.0.1.jar
+Download https://maven.google.com/com/android/tools/sdklib/26.0.1/sdklib-26.0.1.jar
+Download https://maven.google.com/com/android/tools/repository/26.0.1/repository-26.0.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm/5.1/asm-5.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar
+Download https://maven.google.com/com/android/tools/analytics-library/tracker/26.0.1/tracker-26.0.1.jar
+Download https://maven.google.com/com/android/tools/analytics-library/shared/26.0.1/shared-26.0.1.jar
+Download https://maven.google.com/com/android/tools/analytics-library/protos/26.0.1/protos-26.0.1.jar
+Download https://jcenter.bintray.com/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar
+Download https://maven.google.com/com/android/tools/build/builder-model/3.0.1/builder-model-3.0.1.jar
+Download https://maven.google.com/com/android/tools/build/builder-test-api/3.0.1/builder-test-api-3.0.1.jar
+Download https://maven.google.com/com/android/tools/ddms/ddmlib/26.0.1/ddmlib-26.0.1.jar
+Download https://maven.google.com/com/android/tools/layoutlib/layoutlib-api/26.0.1/layoutlib-api-26.0.1.jar
+Download https://maven.google.com/com/android/tools/dvlib/26.0.1/dvlib-26.0.1.jar
+Download https://maven.google.com/com/android/tools/common/26.0.1/common-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/apksig/3.0.1/apksig-3.0.1.jar
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar
+Download https://jcenter.bintray.com/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar
+Download https://maven.google.com/com/android/databinding/baseLibrary/3.0.1/baseLibrary-3.0.1.jar
+Download https://jcenter.bintray.com/com/google/guava/guava/22.0/guava-22.0.jar
+Download https://maven.google.com/com/android/tools/annotations/26.0.1/annotations-26.0.1.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.jar
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.3/gson-2.3.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar
+Download https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+Download https://jcenter.bintray.com/com/intellij/annotations/12.0/annotations-12.0.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar
+Download https://maven.google.com/com/android/tools/external/com-intellij/intellij-core/26.0.1/intellij-core-26.0.1.jar
+Download https://jcenter.bintray.com/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+Download https://jcenter.bintray.com/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.7.3/gradle-bintray-plugin-1.7.3.jar
+Download https://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar
+Download https://jcenter.bintray.com/net/sf/json-lib/json-lib/2.3/json-lib-2.3-jdk15.jar
+Download https://jcenter.bintray.com/com/github/dcendents/android-maven-gradle-plugin/1.5/android-maven-gradle-plugin-1.5.jar
+Download https://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar
+Download https://jcenter.bintray.com/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar
+Download https://jcenter.bintray.com/org/apache/ant/ant/1.8.0/ant-1.8.0.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
+Download https://jcenter.bintray.com/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar
+Download https://jcenter.bintray.com/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-file/1.0-beta-6/wagon-file-1.0-beta-6.jar
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-6/wagon-http-lightweight-1.0-beta-6.jar
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.jar
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar
+Download https://jcenter.bintray.com/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+Download https://jcenter.bintray.com/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+Download https://jcenter.bintray.com/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar
+Download https://jcenter.bintray.com/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar
+Download https://jcenter.bintray.com/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+Download https://jcenter.bintray.com/org/apache/ant/ant-launcher/1.8.0/ant-launcher-1.8.0.jar
+Download https://jcenter.bintray.com/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+Download https://jcenter.bintray.com/junit/junit/3.8.1/junit-3.8.1.jar
+Download https://jcenter.bintray.com/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+Download https://jcenter.bintray.com/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+Download https://jcenter.bintray.com/nekohtml/xercesMinimal/1.9.6.2/xercesMinimal-1.9.6.2.jar
+Download https://jcenter.bintray.com/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar
+publishNonDefault is deprecated and has no effect anymore. All variants are now published.
+Download https://repo1.maven.org/maven2/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+	at build_dc102bpwudmig4nb5yloxyn0.run(/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build.gradle:148)
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+:CordovaLib:preBuild UP-TO-DATE
+:CordovaLib:preDebugBuild UP-TO-DATE
+:CordovaLib:compileDebugAidl
+:CordovaLib:compileDebugRenderscript
+:CordovaLib:checkDebugManifest
+:CordovaLib:generateDebugBuildConfig
+:CordovaLib:prepareLintJar
+:CordovaLib:generateDebugResValues
+:CordovaLib:generateDebugResources
+:CordovaLib:packageDebugResources
+:CordovaLib:platformAttrExtractor
+:CordovaLib:processDebugManifest
+:CordovaLib:javaPreCompileDebug
+:CordovaLib:processDebugJavaRes NO-SOURCE
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:CordovaLib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:compileDebugNdk NO-SOURCE
+:CordovaLib:mergeDebugShaders
+:CordovaLib:compileDebugShaders
+:CordovaLib:generateDebugAssets
+:CordovaLib:mergeDebugAssets
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssetsCould not merge source set folders: 
+[www/node_modules/gulp/node_modules/semver/semver.browser.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.browser.js	[www/node_modules/gulp/node_modules/semver/semver.browser.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.browser.js.gz: Error: Duplicate resources
+[www/node_modules/gulp/node_modules/semver/semver.min.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.min.js	[www/node_modules/gulp/node_modules/semver/semver.min.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.min.js.gz: Error: Duplicate resources
+	at com.android.ide.common.res2.DataSet.checkItems(DataSet.java:468)
+	at com.android.ide.common.res2.DataSet.loadFromFiles(DataSet.java:260)
+	at com.android.ide.common.res2.AssetSet.loadFromFiles(AssetSet.java:30)
+	at com.android.build.gradle.tasks.MergeSourceSetFolders.doFullTaskAction(MergeSourceSetFolders.java:127)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:173)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:mergeDebugAssets'.
+> [www/node_modules/gulp/node_modules/semver/semver.browser.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.browser.js	[www/node_modules/gulp/node_modules/semver/semver.browser.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.browser.js.gz: Error: Duplicate resources
+  [www/node_modules/gulp/node_modules/semver/semver.min.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.min.js	[www/node_modules/gulp/node_modules/semver/semver.min.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.min.js.gz: Error: Duplicate resources
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 34s
+ FAILED
+27 actionable tasks: 27 executed
+/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/gradlew: Command failed with exit code 1 Error output:
+Could not merge source set folders: 
+[www/node_modules/gulp/node_modules/semver/semver.browser.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.browser.js	[www/node_modules/gulp/node_modules/semver/semver.browser.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.browser.js.gz: Error: Duplicate resources
+[www/node_modules/gulp/node_modules/semver/semver.min.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.min.js	[www/node_modules/gulp/node_modules/semver/semver.min.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.min.js.gz: Error: Duplicate resources
+	at com.android.ide.common.res2.DataSet.checkItems(DataSet.java:468)
+	at com.android.ide.common.res2.DataSet.loadFromFiles(DataSet.java:260)
+	at com.android.ide.common.res2.AssetSet.loadFromFiles(AssetSet.java:30)
+	at com.android.build.gradle.tasks.MergeSourceSetFolders.doFullTaskAction(MergeSourceSetFolders.java:127)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:173)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:mergeDebugAssets'.
+> [www/node_modules/gulp/node_modules/semver/semver.browser.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.browser.js	[www/node_modules/gulp/node_modules/semver/semver.browser.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.browser.js.gz: Error: Duplicate resources
+  [www/node_modules/gulp/node_modules/semver/semver.min.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.min.js	[www/node_modules/gulp/node_modules/semver/semver.min.js] /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/src/main/assets/www/node_modules/gulp/node_modules/semver/semver.min.js.gz: Error: Duplicate resources
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 34s
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hcordova build android[?2004l
+Android Studio project detected[0m
+ANDROID_HOME=/Users/tcheston/Library/Android/sdk
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home
+studio
+Subproject Path: CordovaLib[0m
+Subproject Path: app[0m
+publishNonDefault is deprecated and has no effect anymore. All variants are now published.
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+	at build_dc102bpwudmig4nb5yloxyn0.run(/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build.gradle:148)
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+:CordovaLib:preBuild UP-TO-DATE
+:CordovaLib:preDebugBuild UP-TO-DATE
+:CordovaLib:compileDebugAidl UP-TO-DATE
+:CordovaLib:compileDebugRenderscript UP-TO-DATE
+:CordovaLib:checkDebugManifest UP-TO-DATE
+:CordovaLib:generateDebugBuildConfig UP-TO-DATE
+:CordovaLib:prepareLintJar UP-TO-DATE
+:CordovaLib:generateDebugResValues UP-TO-DATE
+:CordovaLib:generateDebugResources UP-TO-DATE
+:CordovaLib:packageDebugResources UP-TO-DATE
+:CordovaLib:platformAttrExtractor UP-TO-DATE
+:CordovaLib:processDebugManifest UP-TO-DATE
+:CordovaLib:processDebugResources
+:CordovaLib:generateDebugSources
+:CordovaLib:javaPreCompileDebug UP-TO-DATE
+:CordovaLib:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:CordovaLib:processDebugJavaRes NO-SOURCE
+:CordovaLib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:CordovaLib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+Download https://maven.google.com/com/android/support/support-annotations/27.1.1/support-annotations-27.1.1.jar
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:CordovaLib:mergeDebugShaders UP-TO-DATE
+:CordovaLib:compileDebugShaders UP-TO-DATE
+:CordovaLib:generateDebugAssets UP-TO-DATE
+:CordovaLib:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:CordovaLib:compileDebugNdk NO-SOURCE
+:CordovaLib:mergeDebugJniLibFolders
+:CordovaLib:transformNativeLibsWithMergeJniLibsForDebug
+:CordovaLib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:cdvBuildDebug
+
+BUILD SUCCESSFUL in 41s
+46 actionable tasks: 20 executed, 26 up-to-date
+Built the following apk(s): 
+	/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build/outputs/apk/debug/app-debug.apk[0m
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hccordova run android --device[?2004l
+Android Studio project detected[0m
+ANDROID_HOME=/Users/tcheston/Library/Android/sdk
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home
+studio
+Subproject Path: CordovaLib[0m
+Subproject Path: app[0m
+publishNonDefault is deprecated and has no effect anymore. All variants are now published.
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+	at build_dc102bpwudmig4nb5yloxyn0.run(/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build.gradle:148)
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+:CordovaLib:preBuild UP-TO-DATE
+:CordovaLib:preDebugBuild UP-TO-DATE
+:CordovaLib:compileDebugAidl UP-TO-DATE
+:CordovaLib:compileDebugRenderscript UP-TO-DATE
+:CordovaLib:checkDebugManifest UP-TO-DATE
+:CordovaLib:generateDebugBuildConfig UP-TO-DATE
+:CordovaLib:prepareLintJar UP-TO-DATE
+:CordovaLib:generateDebugResValues UP-TO-DATE
+:CordovaLib:generateDebugResources UP-TO-DATE
+:CordovaLib:packageDebugResources UP-TO-DATE
+:CordovaLib:platformAttrExtractor UP-TO-DATE
+:CordovaLib:processDebugManifest UP-TO-DATE
+:CordovaLib:processDebugResources UP-TO-DATE
+:CordovaLib:generateDebugSources UP-TO-DATE
+:CordovaLib:javaPreCompileDebug UP-TO-DATE
+:CordovaLib:compileDebugJavaWithJavac UP-TO-DATE
+:CordovaLib:processDebugJavaRes NO-SOURCE
+:CordovaLib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:CordovaLib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources UP-TO-DATE
+:CordovaLib:mergeDebugShaders UP-TO-DATE
+:CordovaLib:compileDebugShaders UP-TO-DATE
+:CordovaLib:generateDebugAssets UP-TO-DATE
+:CordovaLib:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:transformClassesWithStackFramesFixerForDebug UP-TO-DATE
+:app:transformClassesWithDesugarForDebug UP-TO-DATE
+:app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug UP-TO-DATE
+:app:transformDexArchiveWithDexMergerForDebug UP-TO-DATE
+:CordovaLib:compileDebugNdk NO-SOURCE
+:CordovaLib:mergeDebugJniLibFolders UP-TO-DATE
+:CordovaLib:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:CordovaLib:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:validateSigningDebug
+:app:packageDebug UP-TO-DATE
+:app:assembleDebug UP-TO-DATE
+:app:cdvBuildDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 4s
+46 actionable tasks: 1 executed, 45 up-to-date
+Built the following apk(s): 
+	/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build/outputs/apk/debug/app-debug.apk[0m
+ANDROID_HOME=/Users/tcheston/Library/Android/sdk
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home
+none
+Skipping build...[0m
+Built the following apk(s): 
+	/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build/outputs/apk/debug/app-debug.apk[0m
+Using apk: /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build/outputs/apk/debug/app-debug.apk[0m
+Package name: io.ionic.starter[0m
+LAUNCH SUCCESS[0m
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hcordova run android --device[?2004l
+Android Studio project detected[0m
+ANDROID_HOME=/Users/tcheston/Library/Android/sdk
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home
+studio
+Subproject Path: CordovaLib[0m
+Subproject Path: app[0m
+publishNonDefault is deprecated and has no effect anymore. All variants are now published.
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+	at build_dc102bpwudmig4nb5yloxyn0.run(/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build.gradle:148)
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+:CordovaLib:preBuild UP-TO-DATE
+:CordovaLib:preDebugBuild UP-TO-DATE
+:CordovaLib:compileDebugAidl UP-TO-DATE
+:CordovaLib:compileDebugRenderscript UP-TO-DATE
+:CordovaLib:checkDebugManifest UP-TO-DATE
+:CordovaLib:generateDebugBuildConfig UP-TO-DATE
+:CordovaLib:prepareLintJar UP-TO-DATE
+:CordovaLib:generateDebugResValues UP-TO-DATE
+:CordovaLib:generateDebugResources UP-TO-DATE
+:CordovaLib:packageDebugResources UP-TO-DATE
+:CordovaLib:platformAttrExtractor UP-TO-DATE
+:CordovaLib:processDebugManifest UP-TO-DATE
+:CordovaLib:processDebugResources UP-TO-DATE
+:CordovaLib:generateDebugSources UP-TO-DATE
+:CordovaLib:javaPreCompileDebug UP-TO-DATE
+:CordovaLib:compileDebugJavaWithJavac UP-TO-DATE
+:CordovaLib:processDebugJavaRes NO-SOURCE
+:CordovaLib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:CordovaLib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources UP-TO-DATE
+:CordovaLib:mergeDebugShaders UP-TO-DATE
+:CordovaLib:compileDebugShaders UP-TO-DATE
+:CordovaLib:generateDebugAssets UP-TO-DATE
+:CordovaLib:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:transformClassesWithStackFramesFixerForDebug UP-TO-DATE
+:app:transformClassesWithDesugarForDebug UP-TO-DATE
+:app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug UP-TO-DATE
+:app:transformDexArchiveWithDexMergerForDebug UP-TO-DATE
+:CordovaLib:compileDebugNdk NO-SOURCE
+:CordovaLib:mergeDebugJniLibFolders UP-TO-DATE
+:CordovaLib:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:CordovaLib:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:validateSigningDebug
+:app:packageDebug UP-TO-DATE
+:app:assembleDebug UP-TO-DATE
+:app:cdvBuildDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 2s
+46 actionable tasks: 1 executed, 45 up-to-date
+Built the following apk(s): 
+	/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build/outputs/apk/debug/app-debug.apk[0m
+ANDROID_HOME=/Users/tcheston/Library/Android/sdk
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home
+none
+Skipping build...[0m
+Built the following apk(s): 
+	/Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build/outputs/apk/debug/app-debug.apk[0m
+Using apk: /Users/tcheston/Documents/RSCC/WEBT_2300/citc_gh/platforms/android/app/build/outputs/apk/debug/app-debug.apk[0m
+Package name: io.ionic.starter[0m
+LAUNCH SUCCESS[0m
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004hlls[?2004l
+README.md         [34mnode_modules[39;49m[0m      package.json      [34mplugins[39;49m[0m           [34mwww[39;49m[0m
+[34mjson-server[39;49m[0m       package-lock.json [34mplatforms[39;49m[0m         screen.log
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[Jtcheston@Trents-MacBook-Pro citc_gh % [K[?2004heexit[?2004l
+
+Script done on Sat Apr 11 19:51:41 2020
