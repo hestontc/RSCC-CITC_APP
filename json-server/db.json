@@ -475,5 +475,28 @@
       "description": "Award winning three-star faculty chef with wide experience having worked closely with whos-who in the microsoft world, he specializes in creating great office applications. He says, Put together the applications from Apple and Windows, and you get a winning hit! Mamma Mia!"
     }
   ],
+  "members": [
+    {
+      "id": 0,
+      "name": "Max McKamey",
+      "image": "images/MM.jpeg",
+      "designation": "Team Lead",
+      "description": "Max McKamey is in her last semester at Roane State community college and looks forward to graduating this May with an Associates in Computer Information Technology: Cyber Defense. She cannot wait to apply the things she has learned here in real world situations."
+    },
+    {
+      "id": 1,
+      "name": "Trent Heston",
+      "image": "images/TH.jpg",
+      "designation": "Team Member",
+      "description": "DESCRIPTION HERE"
+    },
+    {
+      "id": 2,
+      "name": "Gavin Kryschuk",
+      "image": "images/GK.png",
+      "designation": "Team Member",
+      "description": "DESCRIPTION HERE"
+    },
+  ],    
   "feedback": []
 }

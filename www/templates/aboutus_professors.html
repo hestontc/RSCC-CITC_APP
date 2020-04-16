@@ -21,5 +21,17 @@
         <p>{{professor.description}}</p>
     </div>
 </div>
+    <div class="list list-inset">
+		  <div class="item item-divider">
+            OUTSTANDING TEAM MEMBERS
+		  </div>
+    <div class ="item item-avatar item-text-wrap" ng-repeat="member in members"
+				  href="#/app.aboutus/{{member.id}}">
+        <img ng-src="{{baseURL+member.image}}">
+		<h2><b>{{member.name}}</b></h2>
+		<h4><b>{{member.designation}}</b></h4>
+        <p>{{member.description}}</p>
+    </div>
+</div>
   </ion-content>
 </ion-view>
