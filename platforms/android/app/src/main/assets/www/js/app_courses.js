@@ -54,6 +54,9 @@ angular.module('CITC', ['ionic', 'CITC.controllers','CITC.services'])
   })
 	
 
+  /*
+    To change the entries on the homepage, change the id for the corresponding entry below.
+  */
   .state('app.home', {
     url: '/home',
     views: {
@@ -91,6 +94,9 @@ angular.module('CITC', ['ionic', 'CITC.controllers','CITC.services'])
         resolve: {
           professors: ['corporateFactory', function (corporateFactory) {
             return corporateFactory.query();
+          }],
+          members: ['memberFactory', function (memberFactory) {
+            return memberFactory.query();
           }]
         }
       }
