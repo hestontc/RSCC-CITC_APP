@@ -8,4 +8,4 @@ This repository is for JS team #4 to work and collaborate on the CITC app.
 3.  Trent Heston
 4.  Brianna Holder [INACTIVE]
 
-*Brianna Holder has not responded to any correspondence up to this point. No work has been received from her.*
+
