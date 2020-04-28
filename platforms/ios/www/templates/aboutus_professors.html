@@ -1,0 +1,46 @@
+<ion-view view-title="About Us">
+  <ion-content>
+    <div class="card">
+      <div class="item item-divider">
+        CITC DEGREE
+      </div>
+      <div class="item item-body item-text-wrap">
+        <medium>Started in 2016, AAS CITC quickly established itself as a excellent degree par excellence at Roane
+          State. With its unique sequence of great courses that can be found nowhere else, it enjoys patronage from the
+          A-list companies in the area. Featuring a great program director and great faculty in the IT field, you will
+          love the content and the attention that you receive both face to face and online the next time you take any of
+          our courses.</medium>
+        </p>
+        <large>The degree traces its humble beginnings to the cybersecurity concentration, a successful sequence of
+          courses started by our director, <em>Dr. George Meghabghab</em>, that features for the first time the first
+          cyber security competition at RSCC.</large>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-divider">
+        OUTSTANDING FACULTY
+      </div>
+      <div class="item item-avatar item-text-wrap" ng-repeat="professor in professors"
+        href="#/app.aboutus/{{professor.id}}">
+        <img ng-src="{{baseURL+professor.image}}">
+        <h2><b>{{professor.name}}</b></h2>
+        <h4><b>{{professor.designation}}</b></h4>
+        <p>{{professor.description}}</p>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-divider">
+        TEAM MEMBERS
+      </div>
+      <div class="item item-avatar item-text-wrap" ng-repeat="member in members"
+        href="#/app.aboutus/{{member.id}}">
+        <img ng-src="{{baseURL+member.image}}">
+        <h2><b>{{member.name}}</b></h2>
+        <h4><b>{{member.designation}}</b></h4>
+        <p>{{member.description}}</p>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
