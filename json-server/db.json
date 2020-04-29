@@ -7,6 +7,14 @@
       "label": "Internship",
       "price": "600.00",
       "description": "This course can be either a field experience such as an internship, or a project-based course.  The description will vary among institutions."
+    },
+    {
+      "id": 2,
+      "name": "CITC 1333",
+      "image": "images/LPIC-1_tn.jpg",
+      "label": "Linux-LPIC-1",
+      "price": "600.00",
+      "description": "This course prepare the student to complete the LPIC-1 Junior Level Linux Certification exams 101 and 102. . Topics will include Linux command line operation, maintenance tasks within Linux, and installation, configuration, and connectivity of Linux workstations."
     }
   ],
   "courses": [
@@ -461,7 +469,7 @@
     {
       "id": 2,
       "name": "Mike Chung",
-      "image": "images/alberto.png",
+      "image": "images/MC.jpeg",
       "designation": "Associate Professor",
       "abbr": "Instructor",
       "description": "Blessed with the most discerning hardware sense, Mike, our long persevering faculty, personally ensures that every course that he teaches meets his highest standard. Our Faculty dread the tongue lashing that ensues if their course does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
@@ -469,7 +477,7 @@
     {
       "id": 3,
       "name": "Robert Safdie",
-      "image": "images/alberto.png",
+      "image": "images/RS.jpeg",
       "designation": "Associate Professor",
       "abbr": "Instructor",
       "description": "Award winning three-star faculty chef with wide experience having worked closely with whos-who in the microsoft world, he specializes in creating great office applications. He says, Put together the applications from Apple and Windows, and you get a winning hit! Mamma Mia!"

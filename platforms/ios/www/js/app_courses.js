@@ -66,17 +66,17 @@ angular.module('CITC', ['ionic', 'CITC.controllers','CITC.services'])
         resolve: {
           course: ['menuFactory', function (menuFactory) {
             return menuFactory.get({
-              id: 13
+              id: 8
             })
           }],
           promotion: ['promotionFactory', function (promotionFactory) {
             return promotionFactory.get({
-              id: 1
+              id: 2
             });
           }],
           professor: ['corporateFactory', function (corporateFactory) {
             return corporateFactory.get({
-              id: 2
+              id:3
             });
           }]
         }
