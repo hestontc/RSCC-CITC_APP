@@ -487,7 +487,7 @@
     {
       "id": 0,
       "name": "Max McKamey",
-      "image": "images/UICO.png",
+      "image": "images/MM.jpg",
       "designation": "Team Lead",
       "description": "Max McKamey is in her last semester at Roane State community college and looks forward to graduating this May with an Associates in Computer Information Technology: Cyber Defense. She cannot wait to apply the things she has learned here in real world situations."
     },
@@ -501,16 +501,16 @@
     {
       "id": 2,
       "name": "Gavin Kryschuk",
-      "image": "images/UICO.png",
+      "image": "images/GK.jpg",
       "designation": "Team Member",
-      "description": "DESCRIPTION HERE"
+      "description": "Gavin Kryschuk is a student at Roane State who is currently working towards his Health Informatics Degree."
     },
     {
       "id": 3,
       "name": "Brianna Holder",
-      "image": "images/UICO.png",
+      "image": "images/BH.jpg",
       "designation": "Team Member",
-      "description": "DESCRIPTION HERE"
+      "description": "Brianna Holder is pursuing a Medical Informatics degree and is expected to graduate in December 2020."
     }
   ],
   "feedback": []
