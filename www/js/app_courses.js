@@ -54,6 +54,9 @@ angular.module('CITC', ['ionic', 'CITC.controllers','CITC.services'])
   })
 	
 
+  /*
+    To change the entries on the homepage, change the id for the corresponding entry below.
+  */
   .state('app.home', {
     url: '/home',
     views: {
@@ -63,17 +66,17 @@ angular.module('CITC', ['ionic', 'CITC.controllers','CITC.services'])
         resolve: {
           course: ['menuFactory', function (menuFactory) {
             return menuFactory.get({
-              id: 13
+              id: 8
             })
           }],
           promotion: ['promotionFactory', function (promotionFactory) {
             return promotionFactory.get({
-              id: 1
+              id: 2
             });
           }],
           professor: ['corporateFactory', function (corporateFactory) {
             return corporateFactory.get({
-              id: 2
+              id:3
             });
           }]
         }
@@ -91,6 +94,9 @@ angular.module('CITC', ['ionic', 'CITC.controllers','CITC.services'])
         resolve: {
           professors: ['corporateFactory', function (corporateFactory) {
             return corporateFactory.query();
+          }],
+          members: ['memberFactory', function (memberFactory) {
+            return memberFactory.query();
           }]
         }
       }
