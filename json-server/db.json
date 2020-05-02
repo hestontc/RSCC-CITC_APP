@@ -488,12 +488,12 @@
       "name": "Trent Heston",
       "image": "images/TH.jpg",
       "designation": "Team Member",
-      "description": "DESCRIPTION HERE"
+      "description": "Trent Heston is pursuing an Associates of Computer Information Technology: Programming. Upon graduation, Trent hopes to pursue a more programming intensive career!"
     },
     {
       "id": 2,
       "name": "Gavin Kryschuk",
-      "image": "images/GK.png",
+      "image": "images/GK.jpg",
       "designation": "Team Member",
       "description": "Gavin Kryschuk is a student at Roane State who is currently working towards his Health Informatics Degree."
     },
