@@ -22,4 +22,4 @@ After issuing those commands, I issued the following to add ios to the project
 cordova platform add ios@latest
 ```
 
-**The '@latest' part is very important. building ios fails in the default version (5.0.0).**
+**The '@latest' part is very important. building ios fails in the default version (5.0.0).*
