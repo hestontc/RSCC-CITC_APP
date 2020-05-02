@@ -479,7 +479,7 @@
     {
       "id": 0,
       "name": "Max McKamey",
-      "image": "images/MM.jpeg",
+      "image": "images/MM.jpg",
       "designation": "Team Lead",
       "description": "Max McKamey is in her last semester at Roane State community college and looks forward to graduating this May with an Associates in Computer Information Technology: Cyber Defense. She cannot wait to apply the things she has learned here in real world situations."
     },
@@ -496,6 +496,13 @@
       "image": "images/GK.png",
       "designation": "Team Member",
       "description": "DESCRIPTION HERE"
+    },
+    {
+      "id": 3,
+      "name": "Brianna Holder",
+      "image": "images/BH.jpg",
+      "designation": "Team Member",
+      "description": "Brianna Holder is pursuing a Medical Informatics degree and is expected to graduate in December 2020."
     },
   ],    
   "feedback": []
