@@ -8,7 +8,7 @@ gulp.task('serve', [], () => {
             },
             port: 5000,
             reloadOnRestart: true,
-            browser: "google chrome"
+            browser: "chrome"
         });
         gulp.watch('./**/*', ['', bs.reload]);
 });
